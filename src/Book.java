@@ -8,6 +8,19 @@ public class Book {
         this.number = number;
         this.year = year;
     }
+
+    Book(String title) {
+        this.title = title;
+    }
+
+    Book(String title, int number) {
+        this.title = title;
+        this.number = number;
+    }
+
+    Book() {
+        
+    }
     
 
     /**

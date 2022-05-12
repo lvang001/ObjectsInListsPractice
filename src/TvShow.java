@@ -8,6 +8,16 @@ public class TvShow {
         this.number = number;
         this.genre = genre;
     }
+
+    public TvShow(String name) {
+        this.name = name;
+    }
+
+    public TvShow(String name, int number) {
+        this.name = name;
+        this.number = number;
+
+    }
     
 
     /**
